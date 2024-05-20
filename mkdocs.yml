@@ -1,4 +1,4 @@
 site_name: GyrSec
-site_url: https://gyrsec.github.io/gyrsec
+site_url: https://gyrsec.github.io
 theme:
   name: material

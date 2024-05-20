@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7e19eeacf773ab5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,11 +159,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dcd220b2794ba561",
+  "active": "7e19eeacf773ab5c",
   "lastOpenFiles": [
+    "about me.md",
+    "index.md",
+    "HTB VM NOTES/HTB VMs.md",
+    "Untitled",
+    "HTB VM NOTES/Untitled",
+    "HTB VM NOTES",
+    "WRITEUPS",
+    "POST EXPLOITATION",
+    "PRIVESC",
+    "LATERAL MOVEMENT",
+    "EXPLOITATION",
     "ENUM/NMAP.md",
     "ENUM/MASSCAN.md",
-    "index.md",
     "ENUM"
   ]
 }

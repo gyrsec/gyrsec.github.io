@@ -1,0 +1,1 @@
+these folders contain notes taken while exploiting retired Hack The Box hosts

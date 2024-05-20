@@ -8,3 +8,13 @@ theme:
     scheme: slate
     primary: black
     icon: material/brightness-4
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/gyrsec
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/gyrsec
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/jacob-roberts-478a25138
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:gyrsec@proton.me

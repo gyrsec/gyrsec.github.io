@@ -2,3 +2,7 @@ site_name: GyrSec
 site_url: https://gyrsec.github.io/gyrsec
 theme:
   name: material
+  palette: 
+    scheme: slate
+    primary: black
+    icon: material/brightness-4

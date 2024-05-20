@@ -1,11 +1,10 @@
 site_name: GyrSec
 site_url: https://gyrsec.github.io/gyrsec
 repo_url: https://github.com/gyrsec/gyrsec.github.io
+repo_name: gyrsec/gyrsec.github.io
 theme:
   name: material
   palette: 
     scheme: slate
     primary: black
     icon: material/brightness-4
-  features:
-    - navigation.tabs

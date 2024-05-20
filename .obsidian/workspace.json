@@ -11,8 +11,12 @@
             "id": "2b48ab4fb9345a8f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "docs/about.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/about.md"
+              }
             }
           }
         ]
@@ -140,6 +148,12 @@
   },
   "active": "2b48ab4fb9345a8f",
   "lastOpenFiles": [
+    "docs/stylesheets/extra.css",
+    "docs/stylesheets/style.css",
+    "docs/stylesheets",
+    "docs/New folder",
+    "docs/style.css",
+    "docs/index.md",
     "docs/HTB VM NOTES/Devvortex/enum/nmap.md",
     "docs/HTB VM NOTES/Devvortex/enum/Untitled.md",
     "docs/HTB VM NOTES/Devvortex/devvortex.md",
@@ -155,10 +169,6 @@
     "docs/HTB VM NOTES/HTB VMs.md",
     "docs/HTB VM NOTES/Untitled.md",
     "docs/HTB VM NOTES",
-    "docs/WRITEUPS",
-    "docs/POST EXPLOITATION",
-    "docs/PRIVESC",
-    "docs/LATERAL MOVEMENT",
     "docs/ENUM/NMAP.md",
     "docs/ENUM/Untitled.md",
     "docs/ENUM/MASSCAN.md"

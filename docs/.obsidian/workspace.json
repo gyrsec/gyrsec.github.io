@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "HTB VM NOTES/Devvortex/enum/nmap.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "HTB VM NOTES/Devvortex/enum/nmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "HTB VM NOTES/Devvortex/enum/nmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "HTB VM NOTES/Devvortex/enum/nmap.md"
               }
             }
           }
@@ -161,11 +161,14 @@
   },
   "active": "7e19eeacf773ab5c",
   "lastOpenFiles": [
-    "about me.md",
-    "index.md",
+    "HTB VM NOTES/Devvortex/devvortex.md",
+    "HTB VM NOTES/Devvortex/enum/nmap.md",
     "HTB VM NOTES/HTB VMs.md",
+    "about.md",
+    "HTB VM NOTES/Devvortex/enum",
+    "index.md",
     "Untitled",
-    "HTB VM NOTES/Untitled",
+    "HTB VM NOTES/Devvortex",
     "HTB VM NOTES",
     "WRITEUPS",
     "POST EXPLOITATION",

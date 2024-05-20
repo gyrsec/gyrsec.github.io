@@ -140,8 +140,15 @@
   },
   "active": "2b48ab4fb9345a8f",
   "lastOpenFiles": [
-    "docs/about me.md",
+    "docs/HTB VM NOTES/Devvortex/enum/nmap.md",
+    "docs/HTB VM NOTES/Devvortex/enum/Untitled.md",
+    "docs/HTB VM NOTES/Devvortex/devvortex.md",
+    "docs/HTB VM NOTES/Devvortex/Untitled.md",
+    "docs/HTB VM NOTES/Devvortex/enum",
+    "docs/HTB VM NOTES/Devvortex/Untitled",
     "docs/about.md",
+    "docs/HTB VM NOTES/Devvortex",
+    "docs/about me.md",
     "docs/Untitled.md",
     "docs/Untitled",
     "docs/HTB VM NOTES/Untitled",
@@ -152,11 +159,8 @@
     "docs/POST EXPLOITATION",
     "docs/PRIVESC",
     "docs/LATERAL MOVEMENT",
-    "docs/EXPLOITATION",
     "docs/ENUM/NMAP.md",
     "docs/ENUM/Untitled.md",
-    "New folder",
-    "docs/ENUM/MASSCAN.md",
-    "docs/ENUM"
+    "docs/ENUM/MASSCAN.md"
   ]
 }

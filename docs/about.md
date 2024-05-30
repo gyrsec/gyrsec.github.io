@@ -1,5 +1,5 @@
-# About Me
-I work as an Information Security Engineer with a broad set of responsibilities including on call rotation with Incident response, managing EDR and SIEM, running quarterly Incident Response Exercises, and working with developers for Application Security.
+# about
+I am an Information Security Engineer with experience running IR exercises, appsec, EDR, SIEM, Incident Response, and some light Reverse Engineering and Exploit Development
 
 # My Setup
 I use [obsidian.md](https://obsidian.md/ ) for note taking, Windows for the host, and BlackArch or Kali guests for attacking.
@@ -22,6 +22,4 @@ Retro Computing
 
 
 # These Notes
-I am using [mkdocs](https://www.mkdocs.org/) with the [mkdocs-material](https://github.com/squidfunk/mkdocs-material)theme hosted on [github-pages](https://pages.github.com/) 
-
-The entire structure is managed in an obsidian vault, currently I am undecided on hiding clutter such as the images folder, or leaving it as an example of how I organize my notes. For now the site will appear cluttered to be an easy reference for how I organize my notes.
+I am using [mkdocs](https://www.mkdocs.org/) with the [mkdocs-material](https://github.com/squidfunk/mkdocs-material) theme hosted on [github-pages](https://pages.github.com/) 

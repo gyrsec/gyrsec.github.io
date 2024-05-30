@@ -1,52 +1,39 @@
 {
   "main": {
-    "id": "69741402ceb67cf6",
+    "id": "bee29cfb273976ec",
     "type": "split",
     "children": [
       {
-        "id": "e24d16bc34c7c7dd",
+        "id": "a3a4734130b48e05",
         "type": "tabs",
         "children": [
           {
-            "id": "dcd220b2794ba561",
+            "id": "5d5b39543aadcd55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e19eeacf773ab5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB VM NOTES/Devvortex/enum/nmap.md",
+                "file": "about.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "001835effee07328",
+    "id": "7c884906ce0294de",
     "type": "split",
     "children": [
       {
-        "id": "fb7b0368efe3a6e5",
+        "id": "31b3bb0dd42bacb3",
         "type": "tabs",
         "children": [
           {
-            "id": "2b04050d5af57965",
+            "id": "1976c496800ff523",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +43,7 @@
             }
           },
           {
-            "id": "ca4f50535e57be0a",
+            "id": "2f334b28a5535afe",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,7 +58,15 @@
             }
           },
           {
-            "id": "112ae727191dc657",
+            "id": "e2c8808d7bdc1a31",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "f05ecba6156aebcb",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -82,23 +77,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 374.5
   },
   "right": {
-    "id": "bfd823eea0966d03",
+    "id": "02fa2450f3006c54",
     "type": "split",
     "children": [
       {
-        "id": "6d3a1b75bf9b3810",
+        "id": "2fe0270bae5e6c26",
         "type": "tabs",
         "children": [
           {
-            "id": "03fa88a3d91dad64",
+            "id": "d8c524ecf4c6cc63",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB VM NOTES/Devvortex/enum/nmap.md",
+                "file": "about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,19 +105,19 @@
             }
           },
           {
-            "id": "1a2d6271477b0d77",
+            "id": "5aadf8287e95def7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB VM NOTES/Devvortex/enum/nmap.md",
+                "file": "about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "1580909e2440d9b5",
+            "id": "d888d58927101cd8",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,12 +128,12 @@
             }
           },
           {
-            "id": "4484fcd75fe90f0e",
+            "id": "7b62ccfef6d8e0a3",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB VM NOTES/Devvortex/enum/nmap.md"
+                "file": "about.md"
               }
             }
           }
@@ -159,24 +154,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7e19eeacf773ab5c",
+  "active": "5d5b39543aadcd55",
   "lastOpenFiles": [
-    "HTB VM NOTES/Devvortex/devvortex.md",
-    "HTB VM NOTES/Devvortex/enum/nmap.md",
-    "about.md",
-    "index.md",
-    "stylesheets/extra.css",
-    "stylesheets/style.css",
-    "stylesheets",
-    "New folder",
-    "style.css",
-    "HTB VM NOTES/HTB VMs.md",
-    "HTB VM NOTES/Devvortex/enum",
-    "Untitled",
-    "HTB VM NOTES/Devvortex",
-    "HTB VM NOTES",
-    "WRITEUPS",
-    "ENUM/NMAP.md",
-    "ENUM/MASSCAN.md"
+    "xGENERAL/URLENCODE.md",
+    "xGENERAL/PYTHON VENV.md",
+    "xGENERAL/PSQL.md",
+    "xGENERAL/MSFVENOM EXAMPLES.md",
+    "xGENERAL/FILE TRANSFER.md",
+    "xGENERAL/CROSS COMPILE.md",
+    "xGENERAL/BLOODHOUND CUSTOM.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/UNQUOTED PATH.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/SERVICE BINARY HIJACKING.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/SCRIPTS.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/SCHEDULED TASKS.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/REVERSE SHELL.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/PASSWORDS.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/LINKS.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/ENUM.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/DLL HIJACK.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/BIND SHELLS.md",
+    "PRIVILEGE ESCALATION/OS/LINUX/BIND SHELL.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/PRIVS/SeLoadDriverPrivilege.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/PRIVS/SeImpersonatePrivilege.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/PRIVS/SeDebug.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/PRIVS/SeBackupPrivilege.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/PRIVS/SeAssignPrimaryToken.md",
+    "PRIVILEGE ESCALATION/OS/LINUX/USER TRAILS.md",
+    "PRIVILEGE ESCALATION/OS/LINUX/UPGRADE SHELL.md",
+    "PRIVILEGE ESCALATION/OS/LINUX/SUID.md",
+    "Pasted image 20230512010509.png",
+    "Pasted image 20230506002936.png",
+    "Pasted image 20230506002930.png",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "zATTACHMENTS",
+    "VMs/HTB/mailer",
+    "PRIVILEGE ESCALATION/OS/LINUX/DOCKE",
+    "VMs/HTB/runner",
+    "VMs/HTB",
+    "VMs",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/Untitled",
+    "ENUMERATION/GENERAL/Untitled",
+    "EXPLOITATION/OS/WINDOWS/PHISH",
+    "PERSISTENCE"
   ]
 }

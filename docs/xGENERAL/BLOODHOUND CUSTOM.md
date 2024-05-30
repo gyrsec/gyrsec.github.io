@@ -1,0 +1,6 @@
+# BLOODHOUND CUSTOM
+```
+MATCH (m:Computer) RETURN m
+MATCH (m:User) RETURN m
+(NODES)-[:RELATIONSHIP]->(NODES)
+```

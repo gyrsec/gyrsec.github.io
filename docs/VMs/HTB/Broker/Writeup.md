@@ -38,7 +38,7 @@ Nmap done: 1 IP address (1 host up) scanned in 7.49 seconds
 
 First let's investigate the http site
 
-![](Pasted%20image%2020240602002131.png)
+![](zATTACHMENTS/Pasted%20image%2020240602002131.png)
 
 we are presented with a login screen, trying admin:admin gets us through to ActiveMQ
 

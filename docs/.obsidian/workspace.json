@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about.md",
+                "file": "VMs/HTB/Broker/Writeup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4847cdf84800906c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PRIVILEGE ESCALATION/OS/LINUX/UPGRADE SHELL.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about.md",
+                "file": "VMs/HTB/Broker/Writeup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "about.md",
+                "file": "VMs/HTB/Broker/Writeup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about.md"
+                "file": "VMs/HTB/Broker/Writeup.md"
               }
             }
           }
@@ -156,8 +168,28 @@
   },
   "active": "5d5b39543aadcd55",
   "lastOpenFiles": [
-    "xGENERAL/URLENCODE.md",
+    "zATTACHMENTS/Pasted image 20240604012250.png",
+    "zATTACHMENTS/Pasted image 20240604012120.png",
+    "zATTACHMENTS/Pasted image 20240604011757.png",
+    "zATTACHMENTS/Pasted image 20240604004645.png",
+    "zATTACHMENTS/Pasted image 20240604002518.png",
+    "zATTACHMENTS/Pasted image 20240604000800.png",
+    "zATTACHMENTS/Pasted image 20240603233756.png",
+    "zATTACHMENTS/Pasted image 20240603233654.png",
+    "zATTACHMENTS/Pasted image 20240603230217.png",
+    "zATTACHMENTS/Pasted image 20240603224921.png",
+    "zATTACHMENTS/Pasted image 20240603224120.png",
+    "PRIVILEGE ESCALATION/OS/LINUX/UPGRADE SHELL.md",
+    "VMs/HTB/Broker/Writeup.md",
+    "PRIVILEGE ESCALATION/OS/LINUX/SUID.md",
+    "PRIVILEGE ESCALATION/OS/LINUX/USER TRAILS.md",
+    "VMs/HTB/Broker",
+    "PERSISTENCE/GOLDEN TICKET.md",
+    "ENUMERATION/OS/LINUX/SSH KEY FILES.md",
     "xGENERAL/PYTHON VENV.md",
+    "xGENERAL/URLENCODE.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/ENUM.md",
+    "about.md",
     "xGENERAL/PSQL.md",
     "xGENERAL/MSFVENOM EXAMPLES.md",
     "xGENERAL/FILE TRANSFER.md",
@@ -170,21 +202,9 @@
     "PRIVILEGE ESCALATION/OS/WINDOWS/REVERSE SHELL.md",
     "PRIVILEGE ESCALATION/OS/WINDOWS/PASSWORDS.md",
     "PRIVILEGE ESCALATION/OS/WINDOWS/LINKS.md",
-    "PRIVILEGE ESCALATION/OS/WINDOWS/ENUM.md",
     "PRIVILEGE ESCALATION/OS/WINDOWS/DLL HIJACK.md",
     "PRIVILEGE ESCALATION/OS/WINDOWS/BIND SHELLS.md",
     "PRIVILEGE ESCALATION/OS/LINUX/BIND SHELL.md",
-    "PRIVILEGE ESCALATION/OS/WINDOWS/PRIVS/SeLoadDriverPrivilege.md",
-    "PRIVILEGE ESCALATION/OS/WINDOWS/PRIVS/SeImpersonatePrivilege.md",
-    "PRIVILEGE ESCALATION/OS/WINDOWS/PRIVS/SeDebug.md",
-    "PRIVILEGE ESCALATION/OS/WINDOWS/PRIVS/SeBackupPrivilege.md",
-    "PRIVILEGE ESCALATION/OS/WINDOWS/PRIVS/SeAssignPrimaryToken.md",
-    "PRIVILEGE ESCALATION/OS/LINUX/USER TRAILS.md",
-    "PRIVILEGE ESCALATION/OS/LINUX/UPGRADE SHELL.md",
-    "PRIVILEGE ESCALATION/OS/LINUX/SUID.md",
-    "Pasted image 20230512010509.png",
-    "Pasted image 20230506002936.png",
-    "Pasted image 20230506002930.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "zATTACHMENTS",
@@ -195,7 +215,6 @@
     "VMs",
     "PRIVILEGE ESCALATION/OS/WINDOWS/Untitled",
     "ENUMERATION/GENERAL/Untitled",
-    "EXPLOITATION/OS/WINDOWS/PHISH",
-    "PERSISTENCE"
+    "EXPLOITATION/OS/WINDOWS/PHISH"
   ]
 }

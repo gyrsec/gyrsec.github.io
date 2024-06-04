@@ -48,13 +48,13 @@ Clicking on Manage ActiveMQ broker validates that we have admin privileges and s
 
 ![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240602002852.png)
 
-Searchsploit did not reveal anything too interesting but googling "activemq 5.15.15 cve" provides us with this github page https://github.com/SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ
+Searchsploit did not reveal anything too interesting but googling "activemq 5.15.15 cve" provides us with this github page [https://github.com/SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ](https://github.com/SaumyajeetDas/CVE-2023-46604-RCE-Reverse-Shell-Apache-ActiveMQ)
 
 quickly running through the source code nothing looks suspicious, following along with the instructions we create our payload with msfvenom, modify the xml file to reflect our ip address, and catch the reverse shell with netcat
 
 ![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240602234613.png)
 
-This is a limited shell so we first upgrade the shell: [[PRIVILEGE ESCALATION/OS/LINUX/UPGRADE SHELL|UPGRADE SHELL]]
+This is a limited shell so we first [upgrade the shell](https://gyrsec.github.io/PRIVILEGE%20ESCALATION/OS/LINUX/UPGRADE%20SHELL/):
 
 ![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240602235003.png)
 
@@ -66,7 +66,7 @@ Initial enumeration
 
 ![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240603002319.png)
 
-While doing some initial enumeration I noticed we can run nginx with sudo, double checking https://gtfobins.github.io/ does not immediately look exploitable but to see the help page I added the -h flag
+While doing some initial enumeration I noticed we can run nginx with sudo, double checking [https://gtfobins.github.io/](https://gtfobins.github.io/) does not immediately look exploitable but to see the help page I added the -h flag
 
 ![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240602235612.png)
 
@@ -76,7 +76,7 @@ Interestingly -c appears to let us use our own config file, I copied /etc/nginx/
 
 ![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240603224921.png)
 
-I modify user to root, comment out `"include /etc/nginx/conf.d/*.conf;"` and change `include /etc/nginx/sites-enabled/*;` to `include /home/activemq/nginx/site;` I tried to modify /etc/nginx/sites-enabled/default first but it threw an error so I built /home/activemq/nginx/site off https://gist.githubusercontent.com/xameeramir/a5cb675fb6a6a64098365e89a239541d/raw/20a42070958edf3a4a54b31ac231ab64c01a4bda/default%2520nginx%2520configuration%2520filemodifying port and root location. While modifying I noticed that admin.broker.htb was listed and took note of it. After modifying the files and adding a test file I confirmed the site is working but the cleanup script removed the nginx folder, and backup folder I created. Screenshot is over port 82 as ports 80 and 81 were taken up at this point
+I modify user to root, comment out `"include /etc/nginx/conf.d/*.conf;"` and change `include /etc/nginx/sites-enabled/*;` to `include /home/activemq/nginx/site;` I tried to modify /etc/nginx/sites-enabled/default first but it threw an error so I built /home/activemq/nginx/site off [https://gist.githubusercontent.com/xameeramir/a5cb675fb6a6a64098365e89a239541d/raw/20a42070958edf3a4a54b31ac231ab64c01a4bda/default%2520nginx%2520configuration%2520filemodifying](https://gist.githubusercontent.com/xameeramir/a5cb675fb6a6a64098365e89a239541d/raw/20a42070958edf3a4a54b31ac231ab64c01a4bda/default%2520nginx%2520configuration%2520filemodifying) port and root location. While modifying I noticed that admin.broker.htb was listed and took note of it. After modifying the files and adding a test file I confirmed the site is working but the cleanup script removed the nginx folder, and backup folder I created. Screenshot is over port 82 as ports 80 and 81 were taken up at this point
 
 ![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240603230217.png)
 
@@ -90,7 +90,7 @@ the root hash is encrpyted with yescrypt and john does not crack after a couple 
 
 ![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240604002518.png)
 
-Nothing that helps but it confirms my suspicion that it is removing files every 20 minutes. Checking the .ssh folder and I do not find any ssh keys, but we can create our own with `ssh-keygen -f broker`. By modifying default I can enable the put method and add my own ssh key file using https://nginx.org/en/docs/http/ngx_http_dav_module.html and https://stackoverflow.com/questions/55787223/upload-file-to-nginx-with-curl as references. After some trial and error I end up with
+Nothing that helps but it confirms my suspicion that it is removing files every 20 minutes. Checking the .ssh folder and I do not find any ssh keys, but we can create our own with `ssh-keygen -f broker`. By modifying default I can enable the put method and add my own ssh key file using [https://nginx.org/en/docs/http/ngx_http_dav_module.html](https://nginx.org/en/docs/http/ngx_http_dav_module.html) and [https://stackoverflow.com/questions/55787223/upload-file-to-nginx-with-curl](https://stackoverflow.com/questions/55787223/upload-file-to-nginx-with-curl) as references. After some trial and error I end up with
 
 ![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240604011757.png)
 

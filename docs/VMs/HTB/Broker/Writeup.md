@@ -1,10 +1,5 @@
 # Writeup
 
-This writeup was rushed to have it completed prior to RVAsec I will clean it up later this week.
-
-
-
-
 Add the host to /etc/hosts for convenience
 ```
 10.10.11.243    broker broker.htb

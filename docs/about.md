@@ -20,6 +20,7 @@ Retro Computing
 
 - 3 commodore 128s(one working two in need of repair)
 
-
 # These Notes
 I am using [mkdocs](https://www.mkdocs.org/) with the [mkdocs-material](https://github.com/squidfunk/mkdocs-material) theme hosted on [github-pages](https://pages.github.com/) 
+
+Internal links are used where a topic can logically fit in two different places, to download a local copy 

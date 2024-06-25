@@ -1,13 +1,13 @@
 # SNMP
 #nmap 
 
-```
+``` bash
 sudo nmap -sU --open -p 161 192.168.50.1-254 -oG open-snmp.txt
 ```
 
 #onesixtyone
 
-```
+``` bash
 echo public > community
 echo private >> community
 echo manager >> community
@@ -16,7 +16,7 @@ onesixtyone -c community -i ips
 ```
 
 #ENUM_mib 
-```
+``` bash
 snmpwalk -c public -v1 -t 10 192.168.50.151
 -c community string(usually public)
 -v snmp version number

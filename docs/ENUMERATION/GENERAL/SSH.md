@@ -1,6 +1,6 @@
 # SSH
 #ssh-audit
-```sh
+``` bash
 usage: ssh-audit.py [-1246pbcnjvlt] <host>
 
    -1,  --ssh1             force ssh version 1 only

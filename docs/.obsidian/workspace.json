@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VMs/HTB/Broker/Writeup.md",
+                "file": "VMs/HTB/Active/Writeup.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VMs/HTB/Broker/Writeup.md",
+                "file": "VMs/HTB/Active/Writeup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VMs/HTB/Broker/Writeup.md",
+                "file": "VMs/HTB/Active/Writeup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VMs/HTB/Broker/Writeup.md"
+                "file": "VMs/HTB/Active/Writeup.md"
               }
             }
           }
@@ -178,12 +178,35 @@
   },
   "active": "5d5b39543aadcd55",
   "lastOpenFiles": [
-    "index.md",
-    "VMs/HTB/Broker/Writeup.md",
-    "PRIVILEGE ESCALATION/OS/LINUX/CRONJOB.md",
+    "PRIVILEGE ESCALATION/OS/LINUX/REVERSE SHELLS.md",
+    "VMs/HTB/Active/Writeup.md",
+    "VMs/HTB/Active",
+    "VMs/HTB/Untitled.md",
+    "PRIVILEGE ESCALATION/OS/LINUX/UPGRADE SHELL.md",
+    "PRIVILEGE ESCALATION/OS/LINUX/SUID.md",
+    "PRIVILEGE ESCALATION/OS/LINUX/ENUM.md",
+    "ENUMERATION/OS/LINUX.md",
+    "ENUMERATION/OS/WINDOWS.md",
+    "ENUMERATION/GENERAL/WEB.md",
+    "ENUMERATION/GENERAL/VULNERABILITIES.md",
+    "ENUMERATION/GENERAL/SSH.md",
+    "ENUMERATION/GENERAL/SQL.md",
+    "ENUMERATION/GENERAL/SNMP.md",
+    "ENUMERATION/GENERAL/SMTP.md",
+    "ENUMERATION/GENERAL/SMB - SAMBA.md",
+    "ENUMERATION/GENERAL/PORT SCAN.md",
+    "ENUMERATION/GENERAL/POP.md",
+    "ENUMERATION/GENERAL/METADATA.md",
+    "ENUMERATION/GENERAL/IMAP.md",
+    "ENUMERATION/GENERAL/GIT.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/ENUM.md",
+    "ENUMERATION/OS/WINDOWS/RDP.md",
+    "ENUMERATION/OS/LINUX/LINUX.md",
+    "ENUMERATION/AD.md",
+    "ENUMERATION/AD/ENUM.md",
+    "ENUMERATION/AD/LDAP.md",
     "zATTACHMENTS/Pasted image 20240602002131.png",
     "zATTACHMENTS/Pasted image 20240602002852.png",
-    "Pasted.md",
     "zATTACHMENTS/Pasted image 20240604014245.png",
     "zATTACHMENTS/Pasted image 20240604014215.png",
     "zATTACHMENTS/Pasted image 20240603224921.png",
@@ -192,29 +215,7 @@
     "zATTACHMENTS/Pasted image 20240604011757.png",
     "zATTACHMENTS/Pasted image 20240604004645.png",
     "zATTACHMENTS/Pasted image 20240604002518.png",
-    "PRIVILEGE ESCALATION/OS/LINUX/UPGRADE SHELL.md",
-    "PRIVILEGE ESCALATION/OS/LINUX/SUID.md",
-    "PRIVILEGE ESCALATION/OS/LINUX/USER TRAILS.md",
     "VMs/HTB/Broker",
-    "PERSISTENCE/GOLDEN TICKET.md",
-    "ENUMERATION/OS/LINUX/SSH KEY FILES.md",
-    "xGENERAL/PYTHON VENV.md",
-    "xGENERAL/URLENCODE.md",
-    "PRIVILEGE ESCALATION/OS/WINDOWS/ENUM.md",
-    "about.md",
-    "xGENERAL/PSQL.md",
-    "xGENERAL/MSFVENOM EXAMPLES.md",
-    "xGENERAL/FILE TRANSFER.md",
-    "xGENERAL/CROSS COMPILE.md",
-    "xGENERAL/BLOODHOUND CUSTOM.md",
-    "PRIVILEGE ESCALATION/OS/WINDOWS/UNQUOTED PATH.md",
-    "PRIVILEGE ESCALATION/OS/WINDOWS/SERVICE BINARY HIJACKING.md",
-    "PRIVILEGE ESCALATION/OS/WINDOWS/SCRIPTS.md",
-    "PRIVILEGE ESCALATION/OS/WINDOWS/SCHEDULED TASKS.md",
-    "PRIVILEGE ESCALATION/OS/WINDOWS/REVERSE SHELL.md",
-    "PRIVILEGE ESCALATION/OS/WINDOWS/PASSWORDS.md",
-    "PRIVILEGE ESCALATION/OS/WINDOWS/LINKS.md",
-    "PRIVILEGE ESCALATION/OS/WINDOWS/DLL HIJACK.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "zATTACHMENTS",
@@ -224,7 +225,6 @@
     "VMs/HTB",
     "VMs",
     "PRIVILEGE ESCALATION/OS/WINDOWS/Untitled",
-    "ENUMERATION/GENERAL/Untitled",
-    "EXPLOITATION/OS/WINDOWS/PHISH"
+    "ENUMERATION/GENERAL/Untitled"
   ]
 }

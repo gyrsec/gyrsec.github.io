@@ -20,14 +20,14 @@ smbclient \\[ip]\share
 
 #nbtscan
 
-```
+``` bash
 valid NetBIOS names
 sudo nbtscan -r 192.168.50.0/24
 ```
 
 #windows_enum
 
-```
+``` bash
 list all shares
 net view \\[hostname] /all
 ```

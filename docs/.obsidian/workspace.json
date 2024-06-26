@@ -18,28 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e2c8913ce4e73c4b",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "zATTACHMENTS/Pasted image 20240603224921.png"
-              }
-            }
-          },
-          {
-            "id": "4847cdf84800906c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PRIVILEGE ESCALATION/OS/LINUX/UPGRADE SHELL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -178,8 +156,20 @@
   },
   "active": "5d5b39543aadcd55",
   "lastOpenFiles": [
-    "PRIVILEGE ESCALATION/OS/LINUX/REVERSE SHELLS.md",
+    "VMs/HTB/Broker/Writeup.md",
     "VMs/HTB/Active/Writeup.md",
+    "zATTACHMENTS/Pasted image 20240626005844.png",
+    "zATTACHMENTS/Pasted image 20240626005347.png",
+    "zATTACHMENTS/Pasted image 20240626005214.png",
+    "zATTACHMENTS/Pasted image 20240626002349.png",
+    "zATTACHMENTS/Pasted image 20240626001626.png",
+    "zATTACHMENTS/Pasted image 20240626001346.png",
+    "zATTACHMENTS/Pasted image 20240626000229.png",
+    "zATTACHMENTS/Pasted image 20240625235352.png",
+    "zATTACHMENTS/Pasted image 20240625234413.png",
+    "ENUMERATION/AD.md",
+    "PRIVILEGE ESCALATION/AD/ENUM.md",
+    "PRIVILEGE ESCALATION/OS/LINUX/REVERSE SHELLS.md",
     "VMs/HTB/Active",
     "VMs/HTB/Untitled.md",
     "PRIVILEGE ESCALATION/OS/LINUX/UPGRADE SHELL.md",
@@ -202,19 +192,7 @@
     "PRIVILEGE ESCALATION/OS/WINDOWS/ENUM.md",
     "ENUMERATION/OS/WINDOWS/RDP.md",
     "ENUMERATION/OS/LINUX/LINUX.md",
-    "ENUMERATION/AD.md",
-    "ENUMERATION/AD/ENUM.md",
-    "ENUMERATION/AD/LDAP.md",
     "zATTACHMENTS/Pasted image 20240602002131.png",
-    "zATTACHMENTS/Pasted image 20240602002852.png",
-    "zATTACHMENTS/Pasted image 20240604014245.png",
-    "zATTACHMENTS/Pasted image 20240604014215.png",
-    "zATTACHMENTS/Pasted image 20240603224921.png",
-    "zATTACHMENTS/Pasted image 20240604012250.png",
-    "zATTACHMENTS/Pasted image 20240604012120.png",
-    "zATTACHMENTS/Pasted image 20240604011757.png",
-    "zATTACHMENTS/Pasted image 20240604004645.png",
-    "zATTACHMENTS/Pasted image 20240604002518.png",
     "VMs/HTB/Broker",
     "Untitled.canvas",
     "Untitled 1.canvas",

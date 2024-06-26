@@ -43,19 +43,37 @@ Host script results:
 2008 r2, I checked for Eternal Blue but it isn't quite that easy. 
 
 after some basic enum against active directory I find the Replication share is accessible
+
 ![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240625234413.png)
 
-exploring the fileshare I find a few files, but the relevant one is Groups.xml ![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240625235352.png)
+
+exploring the fileshare I find a few files, but the relevant one is Groups.xml 
+![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240625235352.png)
+
 
 Hacktricks provides a good breakdown [here](https://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation#cached-gpp-pasword) but the short of it is that Windows used to allow for deploying local administrator accounts with Group Policy Preferences, using a known key top encrypt the passwords
+
 ![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240626001626.png)
+
 I tried psexec with the compromised user but again it won't be that easy
+
 ![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240626001346.png)
+
 The reason psexec is not working is that we do not have access to ADMIN$
-![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240626002349.png)we can get the user flag through the Users share but the account name SVC_TGS sounds like a hint for kerberoasting, and grabbing a flag without a shell is not as satisfying. I used impacket-GetUserSPNS for kerberoasting
-![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240626005214.png)and hashcat makes quick work of cracking
+
+![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240626002349.png)
+
+we can get the user flag through the Users share but the account name SVC_TGS sounds like a hint for kerberoasting, and grabbing a flag without a shell is not as satisfying. I used impacket-GetUserSPNS for kerberoasting
+
+![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240626005214.png)
+
+and hashcat makes quick work of cracking
 `hashcat -m 13100 --force -a 0 hashes.kerberoast /usr/share/seclists/Passwords/Leaked-Databases/rockyou.txt`
+
 ![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240626005347.png)
+
 you can use `hashcat --show [hash file]` to vire previously cracked passwords, using the administrator password with psexec we get a remote shell as system!
+
 ![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240626005844.png)
+
 All in all a very easy box but it is a nice break from all the hackthebox vms I have been going through lately which start with a web application

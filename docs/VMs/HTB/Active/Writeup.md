@@ -72,7 +72,7 @@ and hashcat makes quick work of cracking
 
 ![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240626005347.png)
 
-you can use `hashcat --show [hash file]` to vire previously cracked passwords, using the administrator password with psexec we get a remote shell as system!
+you can use `hashcat --show [hash file]` to view previously cracked passwords, using the administrator password with psexec we get a remote shell as system!
 
 ![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240626005844.png)
 

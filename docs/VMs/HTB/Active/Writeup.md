@@ -51,7 +51,7 @@ exploring the fileshare I find a few files, but the relevant one is Groups.xml
 ![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240625235352.png)
 
 
-Hacktricks provides a good breakdown [here](https://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation#cached-gpp-pasword) but the short of it is that Windows used to allow for deploying local administrator accounts with Group Policy Preferences, using a known key top encrypt the passwords
+Hacktricks provides a good breakdown [here](https://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation#cached-gpp-pasword) but the short of it is that Windows used to allow for deploying local administrator accounts with Group Policy Preferences, using a known key to encrypt the passwords
 
 ![](https://gyrsec.github.io/zATTACHMENTS/Pasted%20image%2020240626001626.png)
 

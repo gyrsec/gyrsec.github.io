@@ -169,8 +169,11 @@
   },
   "active": "6349a49adc3dbc9d",
   "lastOpenFiles": [
+    "zATTACHMENTS/5837ac5e28291146a9f2a8a015540c28.png",
     "zATTACHMENTS/5837ac5e28291146a9f2a8a015540c28.webp",
+    "zATTACHMENTS/Pasted image 20240602002131.png",
     "VMs/HTB/Active.md",
+    "zATTACHMENTS/5837ac5e28291146a9f2a8a015540c28.png.0.pdnSave",
     "VMs/HTB/Broker.md",
     "zATTACHMENTS/Pasted image 20240626005844.png",
     "zATTACHMENTS/Pasted image 20240626005347.png",
@@ -180,7 +183,6 @@
     "zATTACHMENTS/Pasted image 20240626001346.png",
     "zATTACHMENTS/Pasted image 20240626000229.png",
     "zATTACHMENTS/Pasted image 20240625235352.png",
-    "zATTACHMENTS/Pasted image 20240625234413.png",
     "ENUMERATION/AD.md",
     "PRIVILEGE ESCALATION/AD/ENUM.md",
     "PRIVILEGE ESCALATION/OS/LINUX/REVERSE SHELLS.md",
@@ -214,7 +216,6 @@
     "VMs/HTB/runner",
     "VMs/HTB",
     "VMs",
-    "PRIVILEGE ESCALATION/OS/WINDOWS/Untitled",
-    "ENUMERATION/GENERAL/Untitled"
+    "PRIVILEGE ESCALATION/OS/WINDOWS/Untitled"
   ]
 }

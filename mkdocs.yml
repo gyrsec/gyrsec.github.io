@@ -8,6 +8,8 @@ theme:
     scheme: slate
     primary: black
     icon: material/brightness-4
+extra_css:
+  - headers.css
 extra:
   social:
     - icon: fontawesome/brands/github

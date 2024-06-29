@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#kerberoasting",
+                "query": "tag:#Linux",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -167,7 +168,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6349a49adc3dbc9d",
+  "active": "2f334b28a5535afe",
   "lastOpenFiles": [
     "About.md",
     "index.md",

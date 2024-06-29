@@ -1,6 +1,10 @@
-# about
-I am an Information Security Engineer with experience running IR exercises, appsec, EDR, SIEM, Incident Response, and some light Reverse Engineering and Exploit Development
+# About
+I am a Senior Information Security Engineer with experience running IR exercises, Appsec, EDR, SIEM, Incident Response, light Reverse Engineering and Exploit Development.
 
+At one point I was the Linux System Administrator for 35 RHEL Linux servers, two Elasticsearch clusters, Graylog and Moloch(now rebranded as Arkime) and I do a little of everything these days.
+# Certs
+[OSCP](https://www.credential.net/deeab0d1-e0f7-4ee3-88bb-9b34d1d46211)
+[GPEN](https://www.youracclaim.com/badges/1785797b-4cb1-46a8-b7cf-d9855a32fae4?source=linked_in_profile)
 # My Setup
 I use [obsidian.md](https://obsidian.md/ ) for note taking, Windows for the host, and BlackArch or Kali guests for attacking.
 
@@ -24,3 +28,9 @@ Retro Computing
 I am using [mkdocs](https://www.mkdocs.org/) with the [mkdocs-material](https://github.com/squidfunk/mkdocs-material) theme hosted on [github-pages](https://pages.github.com/) 
 
 Internal links are used where a topic can logically fit in two different places, to download a local copy 
+
+# Projects
+The windows 98 systems are in the process of being set up for a retro LAN party, the main one I use has a 1 GHz PIII, 512 MB ram, Voodoo 3500
+
+# Other Interests
+I am a licensed glider pilot, licensed falconer and photographer, you can find some photographs [here](https://cara.app/gyrsec) but it is a very limited selection; I am undecided on how best to handle AI as I would prefer none of my photos were used to train a machine learning algorithm.

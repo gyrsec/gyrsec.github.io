@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VMs/HTB/Broker.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#kerberoasting",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VMs/HTB/Broker.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VMs/HTB/Broker.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VMs/HTB/Broker.md"
+                "file": "index.md"
               }
             }
           }
@@ -169,8 +169,10 @@
   },
   "active": "6349a49adc3dbc9d",
   "lastOpenFiles": [
-    "VMs/HTB/Active.md",
+    "About.md",
+    "index.md",
     "VMs/HTB/Broker.md",
+    "VMs/HTB/Active.md",
     "zATTACHMENTS/a725533911ba94a880899fbf900d988c.png",
     "zATTACHMENTS/5837ac5e28291146a9f2a8a015540c28.png",
     "zATTACHMENTS/5837ac5e28291146a9f2a8a015540c28.webp",
@@ -205,7 +207,6 @@
     "ENUMERATION/GENERAL/IMAP.md",
     "ENUMERATION/GENERAL/GIT.md",
     "PRIVILEGE ESCALATION/OS/WINDOWS/ENUM.md",
-    "ENUMERATION/OS/WINDOWS/RDP.md",
     "VMs/HTB/Broker",
     "Untitled.canvas",
     "Untitled 1.canvas",

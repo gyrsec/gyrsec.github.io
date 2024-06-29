@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VMs/HTB/Active/Writeup.md",
+                "file": "VMs/HTB/Active.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6349a49adc3dbc9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VMs/HTB/Active.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VMs/HTB/Active/Writeup.md",
+                "file": "VMs/HTB/Active.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VMs/HTB/Active/Writeup.md",
+                "file": "VMs/HTB/Active.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VMs/HTB/Active/Writeup.md"
+                "file": "VMs/HTB/Active.md"
               }
             }
           }
@@ -154,10 +167,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5d5b39543aadcd55",
+  "active": "6349a49adc3dbc9d",
   "lastOpenFiles": [
-    "VMs/HTB/Broker/Writeup.md",
-    "VMs/HTB/Active/Writeup.md",
+    "zATTACHMENTS/5837ac5e28291146a9f2a8a015540c28.webp",
+    "VMs/HTB/Active.md",
+    "VMs/HTB/Broker.md",
     "zATTACHMENTS/Pasted image 20240626005844.png",
     "zATTACHMENTS/Pasted image 20240626005347.png",
     "zATTACHMENTS/Pasted image 20240626005214.png",
@@ -191,8 +205,6 @@
     "ENUMERATION/GENERAL/GIT.md",
     "PRIVILEGE ESCALATION/OS/WINDOWS/ENUM.md",
     "ENUMERATION/OS/WINDOWS/RDP.md",
-    "ENUMERATION/OS/LINUX/LINUX.md",
-    "zATTACHMENTS/Pasted image 20240602002131.png",
     "VMs/HTB/Broker",
     "Untitled.canvas",
     "Untitled 1.canvas",

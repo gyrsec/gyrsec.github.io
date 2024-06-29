@@ -27,7 +27,9 @@ Retro Computing
 # These Notes
 I am using [mkdocs](https://www.mkdocs.org/) with the [mkdocs-material](https://github.com/squidfunk/mkdocs-material) theme hosted on [github-pages](https://pages.github.com/) 
 
-Internal links are used where a topic can logically fit in two different places, to download a local copy 
+Internal links are used where a topic can logically fit in two different places
+
+I may change the site at some point to something that has more flexibility but I keep notes in [obsidian.md](https://obsidian.md) which this makes extremely simple to maintain
 
 # Projects
 The windows 98 systems are in the process of being set up for a retro LAN party, the main one I use has a 1 GHz PIII, 512 MB ram, Voodoo 3500

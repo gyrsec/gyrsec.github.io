@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "About.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,8 +86,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "About.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "About.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "About.md"
               }
             }
           }
@@ -168,8 +167,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f334b28a5535afe",
+  "active": "6349a49adc3dbc9d",
   "lastOpenFiles": [
+    "obsidian.md",
     "About.md",
     "index.md",
     "VMs/HTB/Broker.md",
@@ -207,7 +207,6 @@
     "ENUMERATION/GENERAL/METADATA.md",
     "ENUMERATION/GENERAL/IMAP.md",
     "ENUMERATION/GENERAL/GIT.md",
-    "PRIVILEGE ESCALATION/OS/WINDOWS/ENUM.md",
     "VMs/HTB/Broker",
     "Untitled.canvas",
     "Untitled 1.canvas",

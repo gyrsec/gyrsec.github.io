@@ -1,6 +1,6 @@
 # Active
 
-[](https://gyrsec.github.io/zATTACHMENTS/5837ac5e28291146a9f2a8a015540c28.png)
+![](https://gyrsec.github.io/zATTACHMENTS/5837ac5e28291146a9f2a8a015540c28.png)
 
 | Name   | Platform                                              | Difficulty |
 | ------ | ----------------------------------------------------- | ---------- |

@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "About.md",
-                "mode": "preview",
+                "file": "index.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "About.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "About.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "About.md"
+                "file": "index.md"
               }
             }
           }
@@ -169,10 +169,14 @@
   },
   "active": "6349a49adc3dbc9d",
   "lastOpenFiles": [
+    "1u2wdkuf.wnj~",
+    "vyizjych.q2p~",
+    "wmq1iytc.43f~",
+    "About.md",
+    "bebx4dar.yqn~",
     "headers.css",
     "snippet.css",
     "index.md",
-    "About.md",
     "obsidian.md",
     "VMs/HTB/Broker.md",
     "VMs/HTB/Active.md",
@@ -212,10 +216,6 @@
     "Untitled.canvas",
     "Untitled 1.canvas",
     "zATTACHMENTS",
-    "VMs/HTB/mailer",
-    "PRIVILEGE ESCALATION/OS/LINUX/DOCKE",
-    "VMs/HTB/runner",
-    "VMs/HTB",
-    "VMs"
+    "VMs/HTB/mailer"
   ]
 }

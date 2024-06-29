@@ -1,6 +1,6 @@
 # Broker
 
-![](https://gyrsec.github.io/zATTACHMENTS/5837a725533911ba94a880899fbf900d988c.png)
+![](https://gyrsec.github.io/zATTACHMENTS/a725533911ba94a880899fbf900d988c.png)
 
 | Name   | Platform                                              | Difficulty |
 | ------ | ----------------------------------------------------- | ---------- |

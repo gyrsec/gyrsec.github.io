@@ -1,0 +1,24 @@
+.md-typeset h1 {
+    color: var(--md-default-fg-color--light);
+    font-size: 2em;
+    line-height: 1;
+    margin: 0 0 1.25em;
+    margin-top: .5em;
+    margin-right: 0px;
+    margin-bottom: 0em;
+    margin-left: 0px;
+}
+
+.md-typeset p {
+    color-adjust: exact;
+    font-size: .8rem;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+    margin-top: 0.25em;
+    margin-left: 0.2em;
+}
+
+.md-typeset ul {
+    margin-bottom: 1em;
+    margin-top: -1em;
+}

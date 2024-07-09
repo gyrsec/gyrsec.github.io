@@ -2,6 +2,7 @@ site_name: GyrSec
 site_url: https://gyrsec.github.io/gyrsec
 repo_url: https://github.com/gyrsec/gyrsec.github.io
 repo_name: gyrsec/gyrsec.github.io
+
 theme:
   name: material
   palette: 
@@ -12,10 +13,10 @@ extra_css:
   - headers.css
 extra:
   social:
+    - icon: simple/hackthebox
+      link: https://app.hackthebox.com/profile/244689
     - icon: fontawesome/brands/github
       link: https://github.com/gyrsec
-    - icon: fontawesome/brands/x-twitter
-      link: https://x.com/gyrsec
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/jacob-roberts-478a25138
     - icon: fontawesome/solid/paper-plane

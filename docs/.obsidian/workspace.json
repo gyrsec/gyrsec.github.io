@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "ENUMERATION/GENERAL/SQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Linux",
+                "query": "sql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "ENUMERATION/GENERAL/SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "ENUMERATION/GENERAL/SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "ENUMERATION/GENERAL/SQL.md"
               }
             }
           }
@@ -167,8 +167,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6349a49adc3dbc9d",
+  "active": "1976c496800ff523",
   "lastOpenFiles": [
+    "PRIVILEGE ESCALATION/AD/KERBEROASTING.md",
+    "PRIVILEGE ESCALATION/AD/SILVER TICKET.md",
+    "EXPLOITATION/POST EXPLOITATION.md",
+    "LATERAL MOVEMENT/AD/PASS THE TICKET.md",
+    "LATERAL MOVEMENT/AD/OVERPASS THE HASH.md",
+    "PRIVILEGE ESCALATION/AD/DCSYNC.md",
+    "ENUMERATION/AD.md",
+    "LATERAL MOVEMENT/AD/MIMIKATZ.md",
+    "PERSISTENCE/GOLDEN TICKET.md",
+    "PRIVILEGE ESCALATION/AD/CACHED PASSWORDS.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/PASSWORDS.md",
+    "ENUMERATION/OS/WINDOWS.md",
+    "PRIVILEGE ESCALATION/AD/ENUM.md",
+    "EXPLOITATION/OS/LINUX/REVERSE SHELL.md",
+    "VMs/HTB/Active.md",
+    "EXPLOITATION/WEB/SQLI.md",
+    "ENUMERATION/GENERAL/SQL.md",
+    "VMs/HTB/Broker.md",
+    "index.md",
     "1u2wdkuf.wnj~",
     "vyizjych.q2p~",
     "wmq1iytc.43f~",
@@ -176,10 +195,7 @@
     "bebx4dar.yqn~",
     "headers.css",
     "snippet.css",
-    "index.md",
     "obsidian.md",
-    "VMs/HTB/Broker.md",
-    "VMs/HTB/Active.md",
     "zATTACHMENTS/a725533911ba94a880899fbf900d988c.png",
     "zATTACHMENTS/5837ac5e28291146a9f2a8a015540c28.png",
     "zATTACHMENTS/5837ac5e28291146a9f2a8a015540c28.webp",
@@ -191,31 +207,15 @@
     "zATTACHMENTS/Pasted image 20240626002349.png",
     "zATTACHMENTS/Pasted image 20240626001626.png",
     "zATTACHMENTS/Pasted image 20240626001346.png",
-    "ENUMERATION/AD.md",
-    "PRIVILEGE ESCALATION/AD/ENUM.md",
     "PRIVILEGE ESCALATION/OS/LINUX/REVERSE SHELLS.md",
     "VMs/HTB/Active",
     "VMs/HTB/Untitled.md",
     "PRIVILEGE ESCALATION/OS/LINUX/UPGRADE SHELL.md",
     "PRIVILEGE ESCALATION/OS/LINUX/SUID.md",
     "PRIVILEGE ESCALATION/OS/LINUX/ENUM.md",
-    "ENUMERATION/OS/LINUX.md",
-    "ENUMERATION/OS/WINDOWS.md",
-    "ENUMERATION/GENERAL/WEB.md",
-    "ENUMERATION/GENERAL/VULNERABILITIES.md",
-    "ENUMERATION/GENERAL/SSH.md",
-    "ENUMERATION/GENERAL/SQL.md",
-    "ENUMERATION/GENERAL/SNMP.md",
-    "ENUMERATION/GENERAL/SMTP.md",
-    "ENUMERATION/GENERAL/SMB - SAMBA.md",
-    "ENUMERATION/GENERAL/PORT SCAN.md",
-    "ENUMERATION/GENERAL/POP.md",
-    "ENUMERATION/GENERAL/METADATA.md",
-    "ENUMERATION/GENERAL/IMAP.md",
     "VMs/HTB/Broker",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "zATTACHMENTS",
-    "VMs/HTB/mailer"
+    "zATTACHMENTS"
   ]
 }

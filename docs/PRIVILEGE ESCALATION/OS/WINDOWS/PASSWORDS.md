@@ -4,6 +4,9 @@
 Get-ChildItem -Path "C:\Users" -Include *.txt,*.ini -File -Recurse -ErrorAction SilentlyContinue
 #interesting file types
 # PASSWORDS
+
+
+Get-Childitem -Recurse | findstr -i "directory config txt aspx ps1 bat xml pass user"
 ```
 
 #powershell_history 

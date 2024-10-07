@@ -5,6 +5,11 @@
 nmap --script "smb* and not brute" -p 445 [ip]
 ```
 
+#smbmap
+```
+smbmap -H 192.168.1.17 -u raj -p 123
+```
+
 #enum4linux
 
 ```sh

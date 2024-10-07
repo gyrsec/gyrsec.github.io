@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ENUMERATION/GENERAL/SQL.md",
+                "file": "PRIVILEGE ESCALATION/OS/WINDOWS/ENUM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "140497073bf28563",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PRIVILEGE ESCALATION/OS/WINDOWS/PRIVS/SeBackupPrivilege.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sql",
+                "query": "reverse shell",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ENUMERATION/GENERAL/SQL.md",
+                "file": "PRIVILEGE ESCALATION/OS/WINDOWS/PRIVS/SeBackupPrivilege.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ENUMERATION/GENERAL/SQL.md",
+                "file": "PRIVILEGE ESCALATION/OS/WINDOWS/PRIVS/SeBackupPrivilege.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ENUMERATION/GENERAL/SQL.md"
+                "file": "PRIVILEGE ESCALATION/OS/WINDOWS/PRIVS/SeBackupPrivilege.md"
               }
             }
           }
@@ -167,55 +179,55 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1976c496800ff523",
+  "active": "140497073bf28563",
   "lastOpenFiles": [
-    "PRIVILEGE ESCALATION/AD/KERBEROASTING.md",
-    "PRIVILEGE ESCALATION/AD/SILVER TICKET.md",
-    "EXPLOITATION/POST EXPLOITATION.md",
-    "LATERAL MOVEMENT/AD/PASS THE TICKET.md",
-    "LATERAL MOVEMENT/AD/OVERPASS THE HASH.md",
-    "PRIVILEGE ESCALATION/AD/DCSYNC.md",
-    "ENUMERATION/AD.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/ENUM.md",
     "LATERAL MOVEMENT/AD/MIMIKATZ.md",
-    "PERSISTENCE/GOLDEN TICKET.md",
-    "PRIVILEGE ESCALATION/AD/CACHED PASSWORDS.md",
     "PRIVILEGE ESCALATION/OS/WINDOWS/PASSWORDS.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/RunasCs.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/BIND SHELLS.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/DLL HIJACK.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/LINKS.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/REVERSE SHELL.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/SCHEDULED TASKS.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/SCRIPTS.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/SERVICE BINARY HIJACKING.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/UNQUOTED PATH.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/PRIVS/SeLoadDriverPrivilege.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/PRIVS/SeBackupPrivilege.md",
+    "PRIVILEGE ESCALATION/OS/WINDOWS/PRIVS/SeAssignPrimaryToken.md",
+    "ENUMERATION/AD/password spray.md",
+    "ENUMERATION/AD/user enum.md",
+    "ENUMERATION/AD/AD.md",
+    "ENUMERATION/SERVICE/SQL.md",
+    "ENUMERATION/AD",
+    "EXPLOITATION/SERVICES/smb.md",
+    "EXPLOITATION/PASSWORD ATTACKS.md",
+    "ENUMERATION/SERVICE/SMB - SAMBA.md",
+    "EXPLOITATION/SERVICES/Untitled",
+    "EXPLOITATION/SERVICES",
+    "ENUMERATION/SERVICE/PORT SCAN.md",
     "ENUMERATION/OS/WINDOWS.md",
-    "PRIVILEGE ESCALATION/AD/ENUM.md",
-    "EXPLOITATION/OS/LINUX/REVERSE SHELL.md",
-    "VMs/HTB/Active.md",
-    "EXPLOITATION/WEB/SQLI.md",
-    "ENUMERATION/GENERAL/SQL.md",
-    "VMs/HTB/Broker.md",
-    "index.md",
-    "1u2wdkuf.wnj~",
-    "vyizjych.q2p~",
-    "wmq1iytc.43f~",
-    "About.md",
-    "bebx4dar.yqn~",
-    "headers.css",
-    "snippet.css",
-    "obsidian.md",
-    "zATTACHMENTS/a725533911ba94a880899fbf900d988c.png",
-    "zATTACHMENTS/5837ac5e28291146a9f2a8a015540c28.png",
-    "zATTACHMENTS/5837ac5e28291146a9f2a8a015540c28.webp",
-    "zATTACHMENTS/Pasted image 20240602002131.png",
-    "zATTACHMENTS/5837ac5e28291146a9f2a8a015540c28.png.0.pdnSave",
-    "zATTACHMENTS/Pasted image 20240626005844.png",
-    "zATTACHMENTS/Pasted image 20240626005347.png",
-    "zATTACHMENTS/Pasted image 20240626005214.png",
-    "zATTACHMENTS/Pasted image 20240626002349.png",
-    "zATTACHMENTS/Pasted image 20240626001626.png",
-    "zATTACHMENTS/Pasted image 20240626001346.png",
-    "PRIVILEGE ESCALATION/OS/LINUX/REVERSE SHELLS.md",
-    "VMs/HTB/Active",
-    "VMs/HTB/Untitled.md",
+    "LATERAL MOVEMENT/PIVOTS/PORT FORWARDING.md",
     "PRIVILEGE ESCALATION/OS/LINUX/UPGRADE SHELL.md",
-    "PRIVILEGE ESCALATION/OS/LINUX/SUID.md",
-    "PRIVILEGE ESCALATION/OS/LINUX/ENUM.md",
-    "VMs/HTB/Broker",
+    "zATTACHMENTS/authority_PWM_configuration.png",
+    "zATTACHMENTS/authority_PWM_configuration.png.0.pdnSave",
+    "zATTACHMENTS/authority_ansible_data.png",
+    "zATTACHMENTS/authority_ansible_data.png.0.pdnSave",
+    "zATTACHMENTS/authority_crack_ansible.png",
+    "zATTACHMENTS/authority_crack_ansible.png.0.pdnSave",
+    "zATTACHMENTS/authority_yml_hashes.png",
+    "zATTACHMENTS/authority_yml_hashes.png.0.pdnSave",
+    "zATTACHMENTS/authority_smb_enum.png.0.pdnSave",
+    "zATTACHMENTS/authority_smb_enum.png",
+    "zATTACHMENTS/authority_svc_account.png",
+    "zATTACHMENTS/authority_svc_account.png.0.pdnSave",
+    "zATTACHMENTS/authority_drop_down_system_warning.png",
+    "zATTACHMENTS/authority_drop_down_system_warning.png.0.pdnSave",
+    "zATTACHMENTS/authority_port_8443.png",
+    "zATTACHMENTS/authority port 8443.png",
+    "zATTACHMENTS/a725533911ba94a880899fbf900d988c.png",
     "Untitled.canvas",
-    "Untitled 1.canvas",
-    "zATTACHMENTS"
+    "Untitled 1.canvas"
   ]
 }

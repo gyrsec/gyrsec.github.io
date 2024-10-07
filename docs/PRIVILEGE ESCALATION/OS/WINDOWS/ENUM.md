@@ -20,6 +20,7 @@ whoami /priv
 [[SeImpersonatePrivilege]]
 [[SeAssignPrimaryToken]]
 [[SeLoadDriverPrivilege]]
+[[SeBackupPrivilege]]
 
 #what_shell 
 ```powershell

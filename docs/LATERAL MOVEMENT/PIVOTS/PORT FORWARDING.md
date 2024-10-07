@@ -36,6 +36,11 @@ proxychains [some command]
 chisel server -p [chisel server port] --reverse
 
 .\chisel.exe client [chisel server ip]:[chisel server port] R:socks
+
+
+example:
+kali:   chisel server --reverse --port 8000
+target: chisel client 10.10.14.22:8000 R:8200:127.0.0.1:8200
 ```
 
 #proxychain
